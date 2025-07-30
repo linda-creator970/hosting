@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to bottom, #cceeff, #99ddff);
+    color: #003366;
+}
+
+header {
+    background-color: #66ccff;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav {
+    background-color: #3399ff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+}
+
+img.fish {
+    width: 200px;
+    margin: 20px auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+img.fish:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+
+footer {
+    background-color: #66ccff;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
